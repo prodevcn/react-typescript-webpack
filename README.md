@@ -360,6 +360,7 @@ How to setup form scratch, a complete react project with a few tools that will g
     devServer: {
       hot: true,
       open: true,
+      historyApiFallback: true, // this is very important for preventing react router no working when refresh page
     } 
     ...
     plugins: [
